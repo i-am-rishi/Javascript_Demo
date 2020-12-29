@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Leave Application">
+    <meta name="keywords" content="Leave Application | Application | Fever | Bed Rest ">
+    <meta name="author" content="Rishabh Kumar Srivastava">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <link rel="stylesheet" type="text/css" href="Application.css">
+    <script src="Application.js">alert("Hello World");</script>
+    <title>Leave Application</title>
+</head>
+<video autoplay muted loop id="myVideo">
+    <source src="Beautiful background video 1080P HD.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<body>
+<div class="w3-serif w3-panel w3-teal w3-round-xlarge w3-hover-text-orange w3-leftbar w3-rightbar" id="header">
+    <h1>Leave Application</h1>
+</div>
+<form id="sender" class="row" onsubmit="mix()" method="post" action="Application.php">
+    <fieldset>
+        <legend class="legends">Basic Information Of Sender</legend>
+        Name<br>
+        <input type="text" name="name" placeholder="Ankit Singh" required><br><br>
+        Enrollment Number<br>
+        <input type="text" name="enroll" placeholder="1700100670" required><br><br>
+        Department (Branch)<br>
+        <input type="text" name="branch" placeholder="B-Tech (CS)" required><br><br>
+        House Number<br>
+        <input type="text" name="hno" placeholder="456" required><br><br>
+        Town<br>
+        <input type="text" name="town" placeholder="Lajpat Nagar" required><br><br>
+        District<br>
+        <input type="text" name="district" placeholder="Delhi" required><br><br>
+    </fieldset> <br><br>
+    <fieldset>
+        <legend class="legends">Basic Information of Receiver</legend>
+        Name/Designation<br>
+        <input type="text" name="rname" placeholder="The Principal" required><br><br>
+        Office/College Name<br>
+        <input type="text" name="office" placeholder="Integral University" required><br><br>
+        District<br>
+        <input type="text" name="rdistrict" placeholder="Lucknow" required><br><br>
+    </fieldset>
+<br>
+<div class="reason">
+Reason<br>
+<input type="text" name="reason" placeholder="Feeling Unwell" required><br><br>
+    <p id="free"></p>
+    <input class="w3-serif w3-panel w3-round-xlarge w3-hover-text-orange submitbutton" type="submit" name="submit">
+</div>
+</form>
+</body>
+</html>
